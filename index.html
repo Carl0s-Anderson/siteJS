@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog de Artigos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .article {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .article img {
+            max-width: 100%;
+            height: auto;
+        }
+        .article h2 {
+            color: #333;
+        }
+        .article h3 {
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blog de Artigos</h1>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Artigos</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <div class="container">
+        <!-- Artigo 1 - 5 Assuntos -->
+        <div class="article">
+            <h2>OBJETOS NO JS</h2>
+            <img src="img/Objetos-em-JavaScript-380x249.png"Imagem do artigo 1">
+            <h3>js Objects</h3>
+            <p>Objetos em JavaScript (JS Objects) são estruturas que armazenam dados em pares chave-valor. Eles possuem propriedades (valores) e métodos (funções). Construtores criam múltiplas instâncias, e há formas de exibir esses objetos dinamicamente.</p>
+            <h3>js object properties</h3>
+            <p>As propriedades de objetos em JavaScript (JS Object Properties) são os valores associados às chaves de um objeto. Elas podem ser acessadas ou modificadas, representando características ou dados de um objeto.</p>
+            <h3> js object Methods</h3>
+            <p>Os métodos de objetos em JavaScript (JS Object Methods) são funções associadas a um objeto. Eles permitem que o objeto execute ações ou manipule seus próprios dados, utilizando suas propriedades.</p>
+            <h3>js object display</h3>
+            <p>Em JavaScript, o Object Display refere-se às maneiras de exibir ou representar objetos. Isso pode ser feito acessando suas propriedades diretamente, convertendo o objeto em string (como com JSON.stringify()), ou exibindo no console com console.log().</p>
+            <h3>js object constructors</h3>
+            <p>Os Object Constructors em JavaScript são funções usadas para criar múltiplas instâncias de um objeto com as mesmas propriedades e métodos. Eles permitem a criação de novos objetos de maneira padronizada, utilizando a palavra-chave new.</p>
+        </div>
+        
+        <!-- Artigo 2 - 3 Assuntos -->
+        <div class="article">
+            <h2>Decisões</h2>
+            <img src="img/image2-8-1024x576.jpg" alt="Imagem do artigo 2">
+            <h3>if/ else / else if</h3>
+            <p>O que é?: São estruturas de controle condicional usadas para executar código com base em uma condição.</p>
+                 <P>Pra que serve?: Serve para tomar decisões no código com base em condições diferentes, permitindo a execução de diferentes blocos de código dependendo das variáveis.</p>
+            <h3>Switch</h3>
+            <p>O que é?: É uma estrutura de controle que seleciona um dos muitos blocos de código a serem executados.</p>
+            <p>    Pra que serve?: Serve para lidar com múltiplos valores possíveis de uma expressão, tornando o código mais organizado do que uma sequência de if/else.</p>
+            <h3>. Operador Ternário</h3>
+            <p>O que é?: É uma forma abreviada de escrever uma condição "if/else" simples.</p>
+                <p>Pra que serve?: Serve para reduzir o código e torná-lo mais compacto quando você precisa de uma avaliação condicional simples que retorna um valor.</p>
+        </div>
+        
+        <!-- Artigo 3 - 8 Assuntos -->
+        <div class="article">
+            <h2>Laços de reptição</h2>
+            <img src="img/ESTRUTURAS-CONDICIONAIS-REPETICAO-JAVASCRIPT.png" alt="Imagem do artigo 3">
+            <h3>WHILE</h3>
+            <p>O que é?: O laço while é uma estrutura de repetição que continua a executar um bloco de código enquanto uma condição for verdadeira.</p>
+            <p>    Pra que serve?: Serve para executar repetidamente um código até que uma determinada condição deixe de ser satisfeita, ideal para casos em que o número de repetições não é conhecido previamente.</p>
+            <h3>FOR</h3>
+            <p>O que é?: O laço for é uma estrutura de repetição que permite executar um bloco de código um número específico de vezes, geralmente baseado em um contador.</P>
+              <P>  Pra que serve?: Serve para iterar sobre arrays, listas ou realizar uma sequência de ações repetidas quando o número de repetições é conhecido previamente, como ao percorrer uma coleção de elementos ou executar um código em um número fixo de iterações.</p>
+            <h3>.MAP</h3>
+            <p>O que é?: O método .map() é uma função usada em arrays que cria um novo array ao aplicar uma função a cada elemento do array original.</P>
+             <P>   Pra que serve?: Serve para transformar os elementos de um array, retornando um novo array com os resultados da função aplicada a cada item, sem modificar o array original. É muito útil para transformar dados de maneira funcional e elegante.</p>
+            <h3>Filter</h3>
+            <p>O que é?
+                O filter é um método de array em JavaScript que cria um novo array com todos os elementos que passam em um teste específico. Esse teste é definido por uma função callback fornecida pelo usuário.</p>
+                
+                Pra que serve?
+               <p> O filter é usado para filtrar elementos de um array com base em uma condição. Por exemplo, você pode usar filter para obter todos os números pares de um array de números ou todos os objetos que atendem a certos critérios.</p>
+            <h3>REDUCE</h3>
+            <p>O que é?
+                O reduce é um método de array em JavaScript que aplica uma função a um acumulador e a cada elemento do array (da esquerda para a direita) para reduzir o array a um único valor. A função callback fornecida pelo usuário é chamada para cada elemento do array, e o resultado é acumulado.</p>
+                
+             <p>   Pra que serve?
+                O reduce é usado para realizar operações que resultam em um único valor a partir de um array. Pode ser usado para somar todos os números de um array, concatenar strings, ou até mesmo transformar arrays em objetos ou outros formatos.</p>
+            <h3> for in (objeto)</h3>
+            <p> O que é?
+                O for...in é um laço em JavaScript utilizado para iterar sobre as propriedades enumeráveis de um objeto. Ele permite acessar todas as chaves (ou nomes das propriedades) do objeto, um por um.</p>
+                
+             <p>   Pra que serve?
+                O for...in é útil quando você precisa percorrer as propriedades de um objeto para executar operações com base nas chaves e valores. É ideal para quando você não conhece previamente as chaves do objeto ou quando precisa realizar uma ação para cada propriedade do objeto.</p>
+            <h3>for in (iterable) array sring set map</h3>
+            <p>O que é?
+                O for...in é um laço que itera sobre as propriedades enumeráveis de um objeto. No entanto, seu comportamento pode variar quando usado com outros tipos de iteráveis como arrays, strings, sets e maps.</p>
+                
+            <p>  Para Arrays:
+                Arrays: O for...in itera sobre as propriedades enumeráveis do array, que incluem índices e propriedades adicionais adicionadas ao array, não apenas os valores. Por isso, não é recomendado usar for...in para arrays se você só quer acessar os valores. Em vez disso, use métodos como forEach, map ou laços tradicionais for.</p>
+             <p>Para Strings:
+                Strings: O for...in itera sobre os índices das propriedades da string. É possível acessar cada caractere da string dessa forma, mas a abordagem não é ideal para manipulação de strings. Métodos como split ou for...of são mais adequados para esse propósito.</p>
+             <p>Para Sets:
+                Sets: O for...in não é adequado para iterar sobre Set. Em vez disso, use for...of para acessar os valores diretamente.</p>
+             <p>Para Maps:
+                Maps: O for...in não itera sobre Map. Para acessar as chaves e valores de um Map, use for...of com os métodos .keys(), .values(), ou .entries().</p>
+            <h3>foreeach (vetor)</h3>
+            <p>O que é?
+                O forEach é um método de array em JavaScript que executa uma função callback fornecida para cada elemento do array. Esse método não retorna um novo array e não altera o array original; apenas executa a função callback para cada item.</p>
+                
+             <p>   Pra que serve?
+                O forEach é utilizado para aplicar uma função a cada elemento de um array, ideal para realizar operações como logs, atualizações de valores, ou execução de efeitos colaterais. É uma forma prática e legível de iterar sobre todos os elementos sem precisar gerenciar o índice manualmente.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Blog. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
